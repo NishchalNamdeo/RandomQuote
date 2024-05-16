@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* background: linear-gradient(to left bottom, rgb(40, 142, 197), lightblue); */
+  background-image: url(https://images.unsplash.com/photo-1679669693237-8f8961d56da7?q=80&w=2047&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: cover;
+}
+
+.container {
+  background-color: rgba(80, 79, 79, 0.2);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin: 10px;
+  text-align: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+
+.quote {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.author {
+  font-size: 25px;
+  margin: 10px;
+  font-style: italic;
+  color: white;
+}
+
+.btn {
+  padding: 10px;
+  width: 300px;
+  margin-top: 10px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white
+}
